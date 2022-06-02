@@ -1,0 +1,29 @@
+
+li{
+    
+    color: blueviolet;
+    border-radius: 5px;
+    border: solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 6.6%;
+    margin-bottom: 3.3%;
+    width: 17%;
+    height: auto;
+    padding: 1.5%;
+}
+
+h3{
+
+    font-size: 90%;
+}
+
+li img{
+
+    border-radius: 5px;
+    max-width: 100%;
+    
+}

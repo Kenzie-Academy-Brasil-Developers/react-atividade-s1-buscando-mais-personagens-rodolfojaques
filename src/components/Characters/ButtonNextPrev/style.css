@@ -1,0 +1,40 @@
+
+.button__nextPrev{
+    box-sizing: border-box;
+
+    width: 33%;
+    height: inherit;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 3rem;
+}
+
+.button__nextPrev button{
+
+    border-style: none;
+    border-radius: 15px;
+
+    width: 45%;
+    height: 2rem;
+    padding: .5rem;
+
+    font-weight: bold;
+    font-size: 1rem;
+
+    background-color: rgba(0, 0, 139, 0.295);
+    color: blueviolet;
+}
+
+.button__nextPrev button:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+
+    cursor: pointer;
+}
+
+.button__nextPrev button:active{
+
+    opacity: .7;
+}
